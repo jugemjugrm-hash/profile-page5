@@ -37,3 +37,9 @@ a {
     border-radius: 12px;
     padding: 16px;
 }
+
+@media (max-width: 600px) {
+    .card-list {
+        flex-direction: column;
+    }
+}
